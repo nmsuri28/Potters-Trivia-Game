@@ -1,0 +1,49 @@
+nav{
+    background-color: black; 
+    color:rgba(240, 248, 255, 0.746);
+    box-shadow: 2px 2px 10px  rgba(0, 255, 255, 0.5);
+    
+}
+
+nav h1{
+    font-size: 64pt;
+    font-family: 'Courgette', cursive;
+    text-shadow: 4px 4px 8px rgba(0, 255, 255, 0.5);
+}
+
+#game{
+    box-shadow: 2px 2px 10px #000000;
+    color: rgba(240, 248, 255, 0.746);
+    font-size: 18pt;
+    font-family: 'Courgette', cursive;
+    text-shadow: 2px 4px 10px #000000;
+
+}
+
+#game h2{
+    font-size: 28pt;
+    color: rgba(0, 0, 0, 0.445);
+}
+
+#game p, h4{
+    font-family: 'Gochi Hand', cursive;
+    font-size: 32pt;
+}
+#after_submit{
+    visibility: hidden;
+}
+.results{
+    display: flex;
+    justify-content: center;
+}
+
+.results li{
+    background-color: rgba(0, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.445);
+}
+.win{
+    text-align: center;
+}
+.lost{
+    text-align: center;
+}
